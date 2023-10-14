@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:scte35="urn:scte:scte35:2014:xml+bin" xmlns:scte214="scte214" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="mspr" type="dynamic" id="7399610060681366163" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.000S" maxSegmentDuration="PT0H0M2.016S" minimumUpdatePeriod="PT0H0M2.002S" availabilityStartTime="1977-05-25T18:00:00.000Z" timeShiftBufferDepth="PT0H0M30.000S" publishTime="2021-11-10T20:44:07.025Z">
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" type="dynamic" id="7399610060681366163" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.000S" maxSegmentDuration="PT0H0M2.016S" minimumUpdatePeriod="PT0H0M2.002S" availabilityStartTime="1977-05-25T18:00:00.000Z" timeShiftBufferDepth="PT0H0M30.000S" publishTime="2021-11-10T20:44:07.025Z">
 
-  <Period id="817467999" start="PT389761H2M15.535S">
+    <ServiceDescription>
+		   <Latency min="750" max="4200" target="1250" referenceId="7"/>
+		   <PlaybackRate min="0.96" max="1.04"/>
+    </ServiceDescription>
+
+    <Period id="817467999" start="PT389761H2M15.535S">
+
+    <ProducerReferenceTime id="7" wallClockTime="2019-08-06T13:44:12Z" presentationTime="158400">
+
     <AdaptationSet id="1" contentType="video" mimeType="video/mp4" segmentAlignment="true" startWithSAP="0">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
       <EssentialProperty schemeIdUri="urn:mpeg:dash:ssr:2023" />
