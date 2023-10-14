@@ -29,7 +29,7 @@
 
     </AdaptationSet>
 
-    <AdaptationSet id="video_primary" contentType="video" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1">
+    <AdaptationSet id="video_fga" contentType="video" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1">
          <EssentialProperty schemeIdUri="urn:mpeg:dash:ssr:2023" value="video_primary"/>
          <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="video_primary"/>
          <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
